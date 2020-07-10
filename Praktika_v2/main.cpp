@@ -8,11 +8,6 @@ int main() {
 
 	student();
 
-	_getch();
-	
-
-	_getch();
-
     return 0;
 }
 
