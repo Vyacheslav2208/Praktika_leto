@@ -38,13 +38,13 @@ void student() {
 
 	cout << "\n===========================================\n";
 
-	Student* fio2 = new Student(student);
+	Student* student2 = new Student(student);
 
 	cout << "\n\n Класс Студент-2:\n";
-	fio2->output();
+	student2->output();
 
 	delete student;
-	delete fio2;
+	delete student2;
 
 	cout << "\n\n===========================================\n";
 
@@ -57,13 +57,13 @@ void student() {
 
 	cout << "\n\n===========================================\n";
 
-	Student* fio3 = new Student[5];
+	Student* student3 = new Student[5];
 
 	cout << "\n\n Введите данные массива классов Студент-4:\n";
 
 	for (int i = 0; i < 5; i++) {
 		cout << "\n Класс - " << i + 1 << endl;
-		fio3[i].input();
+		student3[i].input();
 	}
 
 	cout << "\n\n===========================================\n";
@@ -71,10 +71,10 @@ void student() {
 
 	for (int i = 0; i < 5; i++) {
 		cout << "\n Класс - " << i + 1;
-		fio3[i].output();
+		student3[i].output();
 	}
 
-	delete[] fio3;
+	delete[] student3;
 
 	cout << "\n\n===========================================\n";
 
