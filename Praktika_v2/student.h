@@ -9,18 +9,17 @@ public:
     
     void input();
     void output();
-    
-    char *mLastName;
-    char *mFirstName;
-    char *mPatronymic;
-    char *mUniversity;
-    char *mFaculti;
-    char *mDepartment;
-    char *mEducationalform;
-    int   mKyrs;
 
 protected:
     void init();
+    char* mLastName;
+    char* mFirstName;
+    char* mPatronymic;
+    char* mUniversity;
+    char* mFaculti;
+    char* mDepartment;
+    char* mEducationalform;
+    int   mKyrs;
 
 private:
     void enterDate(char*);
